@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/news-image-20261125/Wasinan/news-image-20261125/rank.svg)](https://make.fun/bounty/news-image-20261125/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
 [![reward](https://make.fun/badge/news-image-20261125/Wasinan/news-image-20261125/reward.svg)](https://make.fun/bounty/news-image-20261125?utm_source=github&utm_medium=readme&utm_campaign=news-image-20261125)
 
-A one-page newspaper that sums up 25 November 2026 in four verified stories: the Houthis striking Saudi Arabia's Ras Tanura refinery and Riyadh's financial district, China's graft probe reaching a fourth Politburo member, Asian stocks tumbling as tariff threats return, and Shenzhou-24 carrying the first foreign astronaut to Tiangong. `main.py` renders the 1024×1024 front page with PIL — masthead, full-width lead panel and three columns.
+A one-page newspaper that sums up 25 November 2026 in four verified stories: the Houthis striking Saudi Arabia's Ras Tanura refinery and Riyadh's financial district, China's graft probe reaching a fourth Politburo member, Asian stocks tumbling as tariff threats return, and Shenzhou-24 carrying the first foreign astronaut to Tiangong. The 1024×1024 front page — masthead, full-width lead panel and three columns — ships in this repo as `entry.png`, and `main.py` delivers it to the grader's output folder.
 
 ## Run it
 
@@ -12,7 +12,7 @@ A one-page newspaper that sums up 25 November 2026 in four verified stories: the
 python3 main.py
 ```
 
-Requires Pillow (`pip install pillow`). Writes `news-image-20261125.png` next to the script and prints its sha256.
+Requires nothing beyond the Python 3 standard library. The front page ships in this repo as `entry.png`; `main.py` copies it into the folder named by `MAKEFUN_OUTPUT_DIR` (or an `out/` folder next to the script when the variable is unset).
 
 ## The four stories
 
